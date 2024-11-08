@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хакатон</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-sans">
+    
+    <!-- Header с логотипами -->
+    <header class="flex justify-between items-center px-6 py-4 bg-purple-800 bg-opacity-80">
+        <h1 class="text-3xl font-bold mb-4">Хакатон 2024</h1>
+
+        <!-- Логотипы под заголовком, в ряд на всех экранах -->
+        <div class="flex justify-center gap-4">
+            <img src="/imgs/лого3.png" alt="Логотип 1" class="h-16 w-auto"> <!-- Логотип 1 -->
+            <img src="/imgs/логопр.png" alt="Логотип 2" class="h-20 w-auto"> <!-- Логотип 2 -->
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <section class="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+        <h2 class="text-5xl font-bold mb-4">Добро пожаловать на Хакатон 2024!</h2>
+        <p class="text-lg max-w-2xl mb-8">
+            Присоединяйтесь к хакатону, чтобы испытать себя в решении реальных задач, создать инновационные проекты
+            и найти единомышленников. Мы приглашаем участников всех уровней подготовки, будь то новички или опытные профессионалы.
+            Соревнуйтесь, создавайте и меняйте будущее!
+        </p>
+        <a href="https://registration-site.com" target="_blank">
+            <button class="bg-yellow-400 text-purple-700 hover:bg-yellow-300 font-semibold py-3 px-8 rounded-lg shadow-lg transition transform hover:scale-105">
+                Зарегистрироваться
+            </button>
+        </a>
+    </section>
+
+    <!-- Секция с информацией о хакатоне -->
+    <section class="bg-white text-gray-800 py-16 px-4 md:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6 text-purple-600">Что вас ждет на хакатоне</h3>
+            <p class="text-lg mb-6">
+                Участников ждут интересные задачи, уникальные возможности, встречи с профессионалами и шанс показать свои навыки.
+                Соревнуйтесь с другими талантами, находите новых друзей и коллег, получайте поддержку от экспертов и создавайте
+                инновационные решения, которые могут изменить мир.
+            </p>
+            <ul class="text-left list-disc list-inside mx-auto max-w-xl space-y-2">
+                <li>Интенсивные воркшопы и мастер-классы от приглашенных экспертов</li>
+                <li>Менторская поддержка на всех этапах</li>
+                <li>Шанс выиграть ценные призы и признание</li>
+                <li>Возможность представить проект перед жюри и инвесторами</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Карусель фотографий -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto text-center px-4">
+            <h4 class="text-2xl font-bold text-purple-600 mb-8">Фото с прошлых мероприятий</h4>
+            <div class="flex overflow-x-scroll space-x-4 p-4">
+                <img src="/imgs/хак1.jpg" alt="Фото 1" class="w-64 h-40 object-cover rounded-lg shadow-lg">
+                <img src="/imgs/хак2.jpg" alt="Фото 2" class="w-64 h-40 object-cover rounded-lg shadow-lg">
+                <img src="/imgs/хак7.jpg" alt="Фото 3" class="w-64 h-40 object-cover rounded-lg shadow-lg">
+                <img src="/imgs/хак3.jpg" alt="Фото 4" class="w-64 h-40 object-cover rounded-lg shadow-lg">
+                <img src="/imgs/хак5.jpg" alt="Фото 5" class="w-64 h-40 object-cover rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Дополнительная информация о хакатоне -->
+    <section class="bg-white text-gray-800 py-16 px-4 md:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h4 class="text-3xl font-bold mb-6 text-purple-600">Почему стоит участвовать?</h4>
+            <p class="text-lg mb-6">
+                Хакатон — это уникальный опыт, где каждый сможет научиться новому, протестировать свои идеи и развить важные навыки.
+                Мы собрали лучших специалистов, чтобы помочь вам пройти все этапы разработки: от идеи до готового продукта.
+                Присоединяйтесь и создавайте вместе с нами!
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 bg-purple-50 rounded-lg shadow-md">
+                    <h5 class="text-xl font-semibold text-purple-700 mb-4">Поддержка на каждом шаге</h5>
+                    <p>Наши менторы и спонсоры помогут вам на всех этапах разработки — от идеи до реализации.</p>
+                </div>
+                <div class="p-6 bg-purple-50 rounded-lg shadow-md">
+                    <h5 class="text-xl font-semibold text-purple-700 mb-4">Призовой фонд и награды</h5>
+                    <p>Соревнование не только за славу, но и за ценные призы, которые будут вручены победителям!</p>
+                </div>
+                <div class="p-6 bg-purple-50 rounded-lg shadow-md">
+                    <h5 class="text-xl font-semibold text-purple-700 mb-4">Ценные знакомства</h5>
+                    <p>На хакатоне вы встретите единомышленников и профессионалов, с которыми сможете развивать проекты.</p>
+                </div>
+                <div class="p-6 bg-purple-50 rounded-lg shadow-md">
+                    <h5 class="text-xl font-semibold text-purple-700 mb-4">Опыт и знания</h5>
+                    <p>Каждый участник получит бесценный опыт и новые навыки, которые пригодятся в будущем.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-200 py-6 text-center">
+        <p>&copy; 2024 Хакатон. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
